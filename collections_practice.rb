@@ -7,4 +7,4 @@ end
 def contain_a(array)
   array.include? ("a")
 end
-end
+
