@@ -27,3 +27,11 @@ def count_elements(array)
     count(element)
   end
 end
+
+def count_elements(array)
+  names = array.uniq
+
+  names.map do |name| 
+    name.merge({ :count => array.count { |item| item[:name] == name[:name] }})
+  end
+end
