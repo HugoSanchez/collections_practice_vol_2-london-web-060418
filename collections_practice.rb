@@ -10,6 +10,6 @@ end
 
 def first_wa(array)
   array.find do |word|
-    word.start_with? ("wa")
+    word.to_s.start_with? ("wa")
   end
 end
