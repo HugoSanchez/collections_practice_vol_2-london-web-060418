@@ -5,9 +5,6 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.any? do |word|
-    word.includes? ("a")
-    return word
-  end
+  array.select {|element| element.include?("a")}
 end
 
