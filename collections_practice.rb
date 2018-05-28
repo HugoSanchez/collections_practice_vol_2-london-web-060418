@@ -35,3 +35,4 @@ def count_elements(array)
     name.merge({ :count => array.count { |item| item[:name] == name[:name] }})
   end
 end
+
