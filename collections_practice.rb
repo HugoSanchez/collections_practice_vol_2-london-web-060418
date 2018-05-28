@@ -13,3 +13,4 @@ def first_wa(array)
     word.to_s.start_with? ("wa")
   end
 end
+
