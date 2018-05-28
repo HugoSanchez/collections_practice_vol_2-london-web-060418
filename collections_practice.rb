@@ -22,3 +22,4 @@ def remove_non_strings(array)
   end
 end
 
+
