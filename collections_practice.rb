@@ -25,3 +25,5 @@ end
 def count_elements(array)
   array.each do |element|
     element.count
+  end
+end
