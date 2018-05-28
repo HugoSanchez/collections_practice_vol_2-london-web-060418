@@ -5,7 +5,9 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.select {|element| element.include?("a")}
+  array.select do |element| 
+    element.include?("a")
+  end
 end
 
 def first_wa(array)
@@ -19,3 +21,4 @@ def remove_non_strings(array)
     element.class != String
   end
 end
+
