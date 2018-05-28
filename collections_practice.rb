@@ -4,4 +4,5 @@ def begins_with_r(array)
   end 
 end
 
-def contain_a
+def contain_a(array)
+  array.include? 
